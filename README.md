@@ -12,12 +12,12 @@ Answer: Spring Boot is an extension of the Spring framework that simplifies the 
 
 2. **How does Spring Boot work? - Architecture**
 
-Answer: Spring Boot's architecture is designed to simplify the development process. It works by:
-Auto-Configuration: Automatically configures the application based on the dependencies present in the classpath. It reduces the need for manual configuration.
-Embedded Servers: Provides embedded servers like Tomcat, Jetty, or Undertow, so you can run your application without needing to deploy it to a standalone server.
-Starter POMs: Uses starter POMs (Project Object Models) to include common dependencies and simplify dependency management.
-Spring Boot CLI: Allows running and testing Spring Boot applications from the command line.
-Actuator: Provides built-in endpoints for monitoring and managing the application in production.
+Answer: Spring Boot's architecture is designed to simplify the development process. It works by: <br/>
+**Auto-Configuration:** Automatically configures the application based on the dependencies present in the classpath. It reduces the need for manual configuration.<br/>
+**Embedded Servers:** Provides embedded servers like Tomcat, Jetty, or Undertow, so you can run your application without needing to deploy it to a standalone server.<br/>
+**Starter POMs:** Uses starter POMs (Project Object Models) to include common dependencies and simplify dependency management.<br/>
+**Spring Boot CLI:** Allows running and testing Spring Boot applications from the command line.<br/>
+**Actuator:** Provides built-in endpoints for monitoring and managing the application in production.<br/>
 
 3. **What is Maven, and why is it used in Java projects?**
 
@@ -38,10 +38,10 @@ Answer: Postman is used for API testing because it provides a user-friendly inte
 7. **What is database mapping in Spring Boot, and what are its categories?**
 
 Answer: Database mapping in Spring Boot involves associating Java objects with database tables. The main categories are:
-One-to-One: A single record in one table is associated with a single record in another table.
-One-to-Many: A single record in one table is associated with multiple records in another table.
-Many-to-One: Multiple records in one table are associated with a single record in another table.
-Many-to-Many: Multiple records in one table are associated with multiple records in another table, often through a join table.
+**One-to-One:** A single record in one table is associated with a single record in another table.
+**One-to-Many:** A single record in one table is associated with multiple records in another table.
+**Many-to-One:** Multiple records in one table are associated with a single record in another table.
+**Many-to-Many:** Multiple records in one table are associated with multiple records in another table, often through a join table.
 
 8. **What is JPA (Java Persistence API)?**
 
@@ -58,10 +58,10 @@ Answer: H2 is an in-memory database written in Java, used primarily for developm
 11. **What are database mappings and their categories?**
 
 Answer: Database mappings define how Java objects are related to database tables. The categories are:
-One-to-One: One record in a table maps to one record in another table.
-One-to-Many: One record in a table maps to multiple records in another table.
-Many-to-One: Multiple records in a table map to one record in another table.
-Many-to-Many: Multiple records in one table map to multiple records in another table via a join table.
+**One-to-One:** One record in a table maps to one record in another table.
+**One-to-Many:** One record in a table maps to multiple records in another table.
+**Many-to-One:** Multiple records in a table map to one record in another table.
+**Many-to-Many:** Multiple records in one table map to multiple records in another table via a join table.
 
 12. **What is cascading in JPA, and what are its types?**
 - Answer: Cascading in JPA allows certain operations (e.g., persist, merge) to be automatically propagated from a parent entity to its associated child entities. Types of cascading include:
