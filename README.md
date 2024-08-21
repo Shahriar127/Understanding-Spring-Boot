@@ -101,7 +101,19 @@ Many-to-Many: Multiple records in one table map to multiple records in another t
 18. **Why is it important to create separate data access and service layers in a Spring Boot application?**
 - Answer: Separating the data access and service layers promotes modularity, maintainability, and separation of concerns. The data access layer handles database interactions, while the service layer contains business logic and orchestrates interactions between the data access layer and other parts of the application. This separation helps in managing and scaling the application effectively.
 
+Extra's:
 
+19. **DI (Dependency Injection):** Passing dependencies into a class, rather than the class creating them.
+20. **IoC (Inversion of Control):** The control of object creation and lifecycle is transferred from the application to the Spring container.
+21. **MSD (Method Signature Declaration):** The method’s name, return type, and parameters in a class.
+22. **Using Schema:** Defines the structure and organization of data, typically for database or XML configuration.
+23. **Implement Collection:** In Spring, this refers to the use of collection types (List, Set, Map) within beans.
+24. **CI (Continuous Integration):** Automated process to integrate code changes and validate them frequently.
+25. **Ambiguity:** Occurs when Spring can’t decide which bean to inject when multiple candidates are available.
+26. **Bean:** An object managed by the Spring IoC container.
+27. **XML:** Used in Spring for configuration, though often replaced by annotations.
+28. **Autowiring:** Automatically injects dependencies by type or name without explicit configuration.
+29. **Annotation:** A way to provide metadata in code, often used in Spring for configuration and DI.
 
 
 
